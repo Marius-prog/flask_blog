@@ -10,13 +10,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="badea370-69de-4f60-ac45-f35d57334c3c" name="Default Changelist" comment="secrets key generated" />
+    <list default="true" id="badea370-69de-4f60-ac45-f35d57334c3c" name="Default Changelist" comment="secrets key generated">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1d7UCZfgN0Ey7q8UCx0r7Rr3327" />
@@ -28,6 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -175,34 +186,36 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="406" y="60" key="#run_(1)/0.23.1440.845@0.23.1440.845" timestamp="1591807755018" />
-    <state x="953" y="354" key="Github.ShareDialog" timestamp="1591779019745">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="953" y="355" key="Github.ShareDialog" timestamp="1591807974285">
+      <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="953" y="354" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1591779019745" />
-    <state x="992" y="162" key="Github.UntrackedFilesDialog" timestamp="1591779029372">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="953" y="355" key="Github.ShareDialog/0.23.1440.845@0.23.1440.845" timestamp="1591807974285" />
+    <state x="992" y="175" key="Github.UntrackedFilesDialog" timestamp="1591808000950">
+      <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="992" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1591779029372" />
-    <state width="1419" height="372" key="GridCell.Tab.0.bottom" timestamp="1591807705319">
+    <state x="992" y="175" key="Github.UntrackedFilesDialog/0.23.1440.845@0.23.1440.845" timestamp="1591808000950" />
+    <state width="1419" height="372" key="GridCell.Tab.0.bottom" timestamp="1591807957059">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state width="424" height="414" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591791545140" />
-    <state width="1419" height="372" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1591807705319" />
-    <state width="1419" height="372" key="GridCell.Tab.0.center" timestamp="1591807705319">
+    <state width="1419" height="372" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1591807957059" />
+    <state width="1419" height="372" key="GridCell.Tab.0.center" timestamp="1591807957058">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state width="424" height="414" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591791545139" />
-    <state width="1419" height="372" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1591807705319" />
-    <state width="1419" height="372" key="GridCell.Tab.0.left" timestamp="1591807705318">
+    <state width="1419" height="372" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1591807957058" />
+    <state width="1419" height="372" key="GridCell.Tab.0.left" timestamp="1591807957058">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state width="424" height="414" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591791545138" />
-    <state width="1419" height="372" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1591807705318" />
-    <state width="1419" height="372" key="GridCell.Tab.0.right" timestamp="1591807705319">
+    <state width="1419" height="372" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1591807957058" />
+    <state width="1419" height="372" key="GridCell.Tab.0.right" timestamp="1591807957058">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state width="424" height="414" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591791545139" />
-    <state width="1419" height="372" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1591807705319" />
+    <state width="1419" height="372" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1591807957058" />
     <state x="443" y="107" key="SettingsEditor" timestamp="1591807372730">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
