@@ -9,3 +9,17 @@ class Config:
     MAIL_USE_TLS = True
     MAIL_USERNAME = os.environ.get('EMAIL_USER')
     MAIL_PASSWORD = os.environ.get('EMAIL_PASS')
+
+
+# class HerokuConfig(ProductionConfig):
+#     @classmethod
+#     def init_app(cls, app):
+#         ProductionConfig.init_app(app)
+#
+#         # log to stderr
+#         import logging
+#         from logging import StreamHandler
+#
+#         file_handler = StreamHandler()
+#         file_handler.setLevel(logging.INFO)
+#         app.logger.addHandler(file_handler)
