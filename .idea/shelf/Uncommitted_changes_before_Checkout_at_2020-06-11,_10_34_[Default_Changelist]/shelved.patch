@@ -1,0 +1,377 @@
+Index: requirements.txt
+===================================================================
+--- requirements.txt	(revision a8c5f1a19398327c7a108093afdd2238049717c5)
++++ requirements.txt	(revision a8c5f1a19398327c7a108093afdd2238049717c5)
+@@ -1,24 +0,0 @@
+-bcrypt==3.1.4
+-blinker==1.4
+-certifi==2016.2.28
+-cffi==1.11.5
+-click==6.7
+-Flask==1.0
+-Flask-Bcrypt==0.7.1
+-Flask-Login==0.4.1
+-Flask-Mail==0.9.1
+-Flask-SQLAlchemy==2.3.2
+-Flask-WTF==0.14.2
+-itsdangerous==0.24
+-Jinja2==2.10
+-MarkupSafe==1.0
+-Pillow==5.3.0
+-pycparser==2.18
+-six==1.11.0
+-SQLAlchemy==1.2.7
+-Werkzeug==0.14.1
+-WTForms==2.1
+-flask
+-gunicorn==19.3.0
+-flask-sqlalchemy
+-psycopg2
+\ No newline at end of file
+Index: runtime.txt
+===================================================================
+--- runtime.txt	(revision a8c5f1a19398327c7a108093afdd2238049717c5)
++++ runtime.txt	(revision a8c5f1a19398327c7a108093afdd2238049717c5)
+@@ -1,229 +0,0 @@
+-alabaster==0.7.12
+-anaconda-client==1.7.2
+-anaconda-navigator==1.9.12
+-anaconda-project==0.8.3
+-applaunchservices==0.2.1
+-appnope==0.1.0
+-appscript==1.0.1
+-argh==0.26.2
+-asn1crypto==1.3.0
+-astroid==2.3.3
+-astropy==4.0
+-atomicwrites==1.3.0
+-attrs==19.3.0
+-autopep8==1.4.4
+-Babel==2.8.0
+-backcall==0.1.0
+-backports.functools-lru-cache==1.6.1
+-backports.shutil-get-terminal-size==1.0.0
+-backports.tempfile==1.0
+-backports.weakref==1.0.post1
+-beautifulsoup4==4.8.2
+-bitarray==1.2.1
+-bkcharts==0.2
+-bleach==3.1.0
+-bokeh==1.4.0
+-boto==2.49.0
+-Bottleneck==1.3.2
+-certifi==2019.11.28
+-cffi==1.14.0
+-chardet==3.0.4
+-Click==7.0
+-cloudpickle==1.3.0
+-clyent==1.2.2
+-colorama==0.4.3
+-conda==4.8.2
+-conda-build==3.18.11
+-conda-package-handling==1.6.0
+-conda-verify==3.4.2
+-contextlib2==0.6.0.post1
+-cryptography==2.8
+-cycler==0.10.0
+-Cython==0.29.15
+-cytoolz==0.10.1
+-dask==2.11.0
+-decorator==4.4.1
+-defusedxml==0.6.0
+-diff-match-patch==20181111
+-distributed==2.11.0
+-docutils==0.16
+-entrypoints==0.3
+-et-xmlfile==1.0.1
+-fastcache==1.1.0
+-filelock==3.0.12
+-flake8==3.7.9
+-Flask==1.1.1
+-fsspec==0.6.2
+-future==0.18.2
+-gevent==1.4.0
+-glob2==0.7
+-gmpy2==2.0.8
+-greenlet==0.4.15
+-h5py==2.10.0
+-HeapDict==1.0.1
+-html5lib==1.0.1
+-hypothesis==5.5.4
+-idna==2.8
+-imageio==2.6.1
+-imagesize==1.2.0
+-importlib-metadata==1.5.0
+-intervaltree==3.0.2
+-ipykernel==5.1.4
+-ipython==7.12.0
+-ipython-genutils==0.2.0
+-ipywidgets==7.5.1
+-isort==4.3.21
+-itsdangerous==1.1.0
+-jdcal==1.4.1
+-jedi==0.14.1
+-Jinja2==2.11.1
+-joblib==0.14.1
+-json5==0.9.1
+-jsonschema==3.2.0
+-jupyter==1.0.0
+-jupyter-client==5.3.4
+-jupyter-console==6.1.0
+-jupyter-core==4.6.1
+-jupyterlab==1.2.6
+-jupyterlab-server==1.0.6
+-keyring==21.1.0
+-kiwisolver==1.1.0
+-lazy-object-proxy==1.4.3
+-libarchive-c==2.8
+-lief==0.9.0
+-llvmlite==0.31.0
+-locket==0.2.0
+-lxml==4.5.0
+-MarkupSafe==1.1.1
+-matplotlib==3.1.3
+-mccabe==0.6.1
+-mistune==0.8.4
+-mkl-fft==1.0.15
+-mkl-random==1.1.0
+-mkl-service==2.3.0
+-mock==4.0.1
+-more-itertools==8.2.0
+-mpmath==1.1.0
+-msgpack==0.6.1
+-multipledispatch==0.6.0
+-navigator-updater==0.2.1
+-nbconvert==5.6.1
+-nbformat==5.0.4
+-networkx==2.4
+-nltk==3.4.5
+-nose==1.3.7
+-notebook==6.0.3
+-numba==0.48.0
+-numexpr==2.7.1
+-numpy==1.18.1
+-numpydoc==0.9.2
+-olefile==0.46
+-openpyxl==3.0.3
+-packaging==20.1
+-pandas==1.0.1
+-pandocfilters==1.4.2
+-parso==0.5.2
+-partd==1.1.0
+-path==13.1.0
+-pathlib2==2.3.5
+-pathtools==0.1.2
+-patsy==0.5.1
+-pep8==1.7.1
+-pexpect==4.8.0
+-pickleshare==0.7.5
+-Pillow==7.0.0
+-pkginfo==1.5.0.1
+-pluggy==0.13.1
+-ply==3.11
+-prometheus-client==0.7.1
+-prompt-toolkit==3.0.3
+-psutil==5.6.7
+-ptyprocess==0.6.0
+-py==1.8.1
+-pycodestyle==2.5.0
+-pycosat==0.6.3
+-pycparser==2.19
+-pycrypto==2.6.1
+-pycurl==7.43.0.5
+-pydocstyle==4.0.1
+-pyflakes==2.1.1
+-Pygments==2.5.2
+-pylint==2.4.4
+-pyodbc===4.0.0-unsupported
+-pyOpenSSL==19.1.0
+-pyparsing==2.4.6
+-pyrsistent==0.15.7
+-PySocks==1.7.1
+-pytest==5.3.5
+-pytest-arraydiff==0.3
+-pytest-astropy==0.8.0
+-pytest-astropy-header==0.1.2
+-pytest-doctestplus==0.5.0
+-pytest-openfiles==0.4.0
+-pytest-remotedata==0.3.2
+-python-dateutil==2.8.1
+-python-jsonrpc-server==0.3.4
+-python-language-server==0.31.7
+-pytz==2019.3
+-PyWavelets==1.1.1
+-PyYAML==5.3
+-pyzmq==18.1.1
+-QDarkStyle==2.8
+-QtAwesome==0.6.1
+-qtconsole==4.6.0
+-QtPy==1.9.0
+-requests==2.22.0
+-rope==0.16.0
+-Rtree==0.9.3
+-ruamel-yaml==0.15.87
+-scikit-image==0.16.2
+-scikit-learn==0.22.1
+-scipy==1.4.1
+-seaborn==0.10.0
+-Send2Trash==1.5.0
+-simplegeneric==0.8.1
+-singledispatch==3.4.0.3
+-six==1.14.0
+-snowballstemmer==2.0.0
+-sortedcollections==1.1.2
+-sortedcontainers==2.1.0
+-soupsieve==1.9.5
+-Sphinx==2.4.0
+-sphinxcontrib-applehelp==1.0.1
+-sphinxcontrib-devhelp==1.0.1
+-sphinxcontrib-htmlhelp==1.0.2
+-sphinxcontrib-jsmath==1.0.1
+-sphinxcontrib-qthelp==1.0.2
+-sphinxcontrib-serializinghtml==1.1.3
+-sphinxcontrib-websupport==1.2.0
+-spyder==4.0.1
+-spyder-kernels==1.8.1
+-SQLAlchemy==1.3.13
+-statsmodels==0.11.0
+-sympy==1.5.1
+-tables==3.6.1
+-tblib==1.6.0
+-terminado==0.8.3
+-testpath==0.4.4
+-toolz==0.10.0
+-tornado==6.0.3
+-tqdm==4.42.1
+-traitlets==4.3.3
+-ujson==1.35
+-unicodecsv==0.14.1
+-urllib3==1.25.8
+-watchdog==0.10.2
+-wcwidth==0.1.8
+-webencodings==0.5.1
+-Werkzeug==1.0.0
+-widgetsnbextension==3.5.1
+-wrapt==1.11.2
+-wurlitzer==2.0.0
+-xlrd==1.2.0
+-XlsxWriter==1.2.7
+-xlwings==0.17.1
+-xlwt==1.3.0
+-xmltodict==0.12.0
+-yapf==0.28.0
+-zict==1.0.0
+-zipp==2.2.0
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"badea370-69de-4f60-ac45-f35d57334c3c\" name=\"Default Changelist\" comment=\"secrets key generated\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1d7UCZfgN0Ey7q8UCx0r7Rr3327\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"com.jetbrains.python.configuration.PythonContentEntriesConfigurable\" />\n  </component>\n  <component name=\"RunManager\" selected=\"Python.run (1)\">\n    <configuration default=\"true\" type=\"PythonConfigurationType\" factoryName=\"Python\">\n      <module name=\"flaskblog\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"run (1)\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"flask_blog\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"$PROJECT_DIR$/bin/python\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/run.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"run\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"flaskblog\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/personalblog\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/personalblog/run.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration default=\"true\" type=\"Tox\" factoryName=\"Tox\">\n      <module name=\"flaskblog\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration default=\"true\" type=\"tests\" factoryName=\"Doctests\">\n      <module name=\"flaskblog\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"\" />\n      <option name=\"CLASS_NAME\" value=\"\" />\n      <option name=\"METHOD_NAME\" value=\"\" />\n      <option name=\"FOLDER_NAME\" value=\"\" />\n      <option name=\"TEST_TYPE\" value=\"TEST_SCRIPT\" />\n      <option name=\"PATTERN\" value=\"\" />\n      <option name=\"USE_PATTERN\" value=\"false\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration default=\"true\" type=\"tests\" factoryName=\"Unittests\">\n      <module name=\"flaskblog\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\n      <option name=\"_new_target\" value=\"&quot;&quot;\" />\n      <option name=\"_new_targetType\" value=\"&quot;PATH&quot;\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.run (1)\" />\n        <item itemvalue=\"Python.run\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"badea370-69de-4f60-ac45-f35d57334c3c\" name=\"Default Changelist\" comment=\"\" />\n      <created>1591775497406</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1591775497406</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"406\" y=\"60\" key=\"#run_(1)\" timestamp=\"1591807755018\">\n      <screen x=\"0\" y=\"23\" width=\"1440\" height=\"845\" />\n    </state>\n    <state x=\"406\" y=\"60\" key=\"#run_(1)/0.23.1440.845@0.23.1440.845\" timestamp=\"1591807755018\" />\n    <state x=\"953\" y=\"354\" key=\"Github.ShareDialog\" timestamp=\"1591779019745\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state x=\"953\" y=\"354\" key=\"Github.ShareDialog/0.0.1440.900@0.0.1440.900\" timestamp=\"1591779019745\" />\n    <state x=\"992\" y=\"162\" key=\"Github.UntrackedFilesDialog\" timestamp=\"1591779029372\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state x=\"992\" y=\"162\" key=\"Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900\" timestamp=\"1591779029372\" />\n    <state width=\"1419\" height=\"263\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1591861528846\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state width=\"1419\" height=\"263\" key=\"GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900\" timestamp=\"1591861528846\" />\n    <state width=\"1419\" height=\"372\" key=\"GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845\" timestamp=\"1591807705319\" />\n    <state width=\"1419\" height=\"263\" key=\"GridCell.Tab.0.center\" timestamp=\"1591861528844\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state width=\"1419\" height=\"263\" key=\"GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900\" timestamp=\"1591861528844\" />\n    <state width=\"1419\" height=\"372\" key=\"GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845\" timestamp=\"1591807705319\" />\n    <state width=\"1419\" height=\"263\" key=\"GridCell.Tab.0.left\" timestamp=\"1591861528843\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state width=\"1419\" height=\"263\" key=\"GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900\" timestamp=\"1591861528843\" />\n    <state width=\"1419\" height=\"372\" key=\"GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845\" timestamp=\"1591807705318\" />\n    <state width=\"1419\" height=\"263\" key=\"GridCell.Tab.0.right\" timestamp=\"1591861528845\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state width=\"1419\" height=\"263\" key=\"GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900\" timestamp=\"1591861528845\" />\n    <state width=\"1419\" height=\"372\" key=\"GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845\" timestamp=\"1591807705319\" />\n    <state x=\"443\" y=\"89\" key=\"SettingsEditor\" timestamp=\"1591862106457\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state x=\"443\" y=\"89\" key=\"SettingsEditor/0.0.1440.900@0.0.1440.900\" timestamp=\"1591862106457\" />\n    <state x=\"443\" y=\"107\" key=\"SettingsEditor/0.23.1440.845@0.23.1440.845\" timestamp=\"1591807372730\" />\n    <state x=\"320\" y=\"190\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1591861850843\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state x=\"320\" y=\"190\" key=\"Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900\" timestamp=\"1591861850843\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision a8c5f1a19398327c7a108093afdd2238049717c5)
++++ .idea/workspace.xml	(date 1591864274025)
+@@ -12,6 +12,8 @@
+   <component name="ChangeListManager">
+     <list default="true" id="badea370-69de-4f60-ac45-f35d57334c3c" name="Default Changelist" comment="secrets key generated">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -19,6 +21,26 @@
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
++    <favorite-branches>
++      <branch-storage>
++        <map>
++          <entry type="LOCAL">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="masterbranch" />
++              </list>
++            </value>
++          </entry>
++          <entry type="REMOTE">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="heroku/masterbranch" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </favorite-branches>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProjectId" id="1d7UCZfgN0Ey7q8UCx0r7Rr3327" />
+@@ -31,7 +53,7 @@
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
++    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+   </component>
+   <component name="RunManager" selected="Python.run (1)">
+     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+@@ -177,6 +199,10 @@
+       <screen x="0" y="23" width="1440" height="845" />
+     </state>
+     <state x="406" y="60" key="#run_(1)/0.23.1440.845@0.23.1440.845" timestamp="1591807755018" />
++    <state width="629" height="492" key="Git.Branch.Popup" timestamp="1591863966520">
++      <screen x="0" y="0" width="1440" height="900" />
++    </state>
++    <state width="629" height="492" key="Git.Branch.Popup/0.0.1440.900@0.0.1440.900" timestamp="1591863966520" />
+     <state x="953" y="354" key="Github.ShareDialog" timestamp="1591779019745">
+       <screen x="0" y="0" width="1440" height="900" />
+     </state>
+@@ -185,34 +211,34 @@
+       <screen x="0" y="0" width="1440" height="900" />
+     </state>
+     <state x="992" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1591779029372" />
+-    <state width="1419" height="263" key="GridCell.Tab.0.bottom" timestamp="1591861528846">
++    <state width="1419" height="263" key="GridCell.Tab.0.bottom" timestamp="1591864051673">
+       <screen x="0" y="0" width="1440" height="900" />
+     </state>
+-    <state width="1419" height="263" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591861528846" />
++    <state width="1419" height="263" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591864051673" />
+     <state width="1419" height="372" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1591807705319" />
+-    <state width="1419" height="263" key="GridCell.Tab.0.center" timestamp="1591861528844">
++    <state width="1419" height="263" key="GridCell.Tab.0.center" timestamp="1591864051671">
+       <screen x="0" y="0" width="1440" height="900" />
+     </state>
+-    <state width="1419" height="263" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591861528844" />
++    <state width="1419" height="263" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591864051671" />
+     <state width="1419" height="372" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1591807705319" />
+-    <state width="1419" height="263" key="GridCell.Tab.0.left" timestamp="1591861528843">
++    <state width="1419" height="263" key="GridCell.Tab.0.left" timestamp="1591864051670">
+       <screen x="0" y="0" width="1440" height="900" />
+     </state>
+-    <state width="1419" height="263" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591861528843" />
++    <state width="1419" height="263" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591864051670" />
+     <state width="1419" height="372" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1591807705318" />
+-    <state width="1419" height="263" key="GridCell.Tab.0.right" timestamp="1591861528845">
++    <state width="1419" height="263" key="GridCell.Tab.0.right" timestamp="1591864051672">
+       <screen x="0" y="0" width="1440" height="900" />
+     </state>
+-    <state width="1419" height="263" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591861528845" />
++    <state width="1419" height="263" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591864051672" />
+     <state width="1419" height="372" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1591807705319" />
+-    <state x="443" y="89" key="SettingsEditor" timestamp="1591862106457">
++    <state x="443" y="89" key="SettingsEditor" timestamp="1591863946856">
+       <screen x="0" y="0" width="1440" height="900" />
+     </state>
+-    <state x="443" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591862106457" />
++    <state x="443" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591863946856" />
+     <state x="443" y="107" key="SettingsEditor/0.23.1440.845@0.23.1440.845" timestamp="1591807372730" />
+-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591861850843">
++    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591863971308">
+       <screen x="0" y="0" width="1440" height="900" />
+     </state>
+-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591861850843" />
++    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591863971308" />
+   </component>
+ </project>
+\ No newline at end of file
