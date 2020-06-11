@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="badea370-69de-4f60-ac45-f35d57334c3c" name="Default Changelist" comment="secrets key generated" />
+    <list default="true" id="badea370-69de-4f60-ac45-f35d57334c3c" name="Default Changelist" comment="secrets key generated">
+      <change beforePath="$PROJECT_DIR$/flaskblog/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/config.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
