@@ -1,1 +1,1 @@
-flask project to AL course..
+flask project to AI course..
